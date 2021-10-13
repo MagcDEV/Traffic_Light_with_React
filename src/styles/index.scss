@@ -1,13 +1,38 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+.traffictTop {
+  background-color:black;
+  width: 10px;
+  height: 60px;
+  margin: auto
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.semaforo {
+  background-color:black;
+  width: 80px;
+  height: 190px;
+  margin: auto
+}
 
-*/
+.light {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: auto
+}
+
+.red {
+  background-color: red
+}
+
+.yellow {
+  background-color: yellow
+}
+
+.green {
+  background-color: green
+}
+
+.selected {
+  box-shadow: white 0 0 30px
+}
